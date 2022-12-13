@@ -1,0 +1,46 @@
+.Donate-page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+.upi-image{
+    height: 150px;
+    width: 150px;
+}
+.qr-image{
+    height: 200px;
+    width: 200px;
+}
+.qrcode {
+text-align: center;
+}
+.qrcode-main {
+    margin-top: 15px;
+}
+.form-container {
+    border: 1px  gray;
+    width: 320px;
+    height: auto;
+    margin-right: 40px;
+}
+.Donate-form {
+    width: 300px;
+    height: auto;
+}
+.QR-container {
+    border: 1px grey;
+    width: 500px;
+    height: auto;
+}
+.submit-button {
+    color: white;
+    background-color:black;
+    border-color: black;
+}
+.qr-heading {
+    margin-top: 50px;
+}
+.error-input-msg {
+    color: red;
+}

@@ -1,17 +1,17 @@
 import ContactUS from './components/features/contactUs/ContactUS';
 import Footer from './components/features/footer/Footer';
 import Gallery from './components/features/gallery/Gallery';
-import Navbar from './components/features/navbar/Navbar';
-
-
+import Navbar from './components/features/Navbar/Navbar';
+import DonatePage from './components/features/donate';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <ContactUS />
-      {/* <Gallery /> */}
-      <Footer />
+      <Gallery />
+      <Footer /> */}
+      <DonatePage/>
     </div>
   );
 }
